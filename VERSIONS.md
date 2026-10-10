@@ -4,7 +4,7 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.1 | 2026-10-08 |
+| ab-testing | 2.0.2 | 2026-10-10 |
 | ad-creative | 2.10.0 | 2026-10-08 |
 | ai-seo | 2.7.6 | 2026-10-08 |
 | analytics | 2.0.3 | 2026-10-08 |
@@ -56,6 +56,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.2.1 | 2026-10-02 |
 
 ## Recent Changes
+
+### 2.11.27 (2026-10-10)
+
+- Correct per-arm duration estimates for partial exposure and unequal traffic allocation.
 
 ### 2.11.26 (2026-10-08)
 

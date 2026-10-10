@@ -39,7 +39,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | ads | 2.4.6 | 2026-10-08 |
 | paywalls | 2.0.0 | 2026-05-05 |
 | popups | 2.0.0 | 2026-05-05 |
-| pricing | 2.1.3 | 2026-10-08 |
+| pricing | 2.1.4 | 2026-10-10 |
 | product-marketing | 2.1.0 | 2026-07-16 |
 | programmatic-seo | 2.1.0 | 2026-10-06 |
 | prospecting | 1.3.0 | 2026-10-08 |
@@ -56,6 +56,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.2.1 | 2026-10-02 |
 
 ## Recent Changes
+
+### 2.11.27 (2026-10-10)
+
+- Define Van Westendorp curve directions and consistent candidate-price shares.
 
 ### 2.11.26 (2026-10-08)
 

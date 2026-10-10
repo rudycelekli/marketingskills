@@ -122,6 +122,9 @@ async function main() {
           if (!query) { result = { error: '--query <json> required' }; break }
           let body
           try { body = JSON.parse(query) } catch { result = { error: 'Invalid JSON in --query' }; break }
+          if (!body || typeof body !== 'object' || Array.isArray(body) || !Array.isArray(body.request?.pipeline)) {
+            throw new Error('--query must be an aggregation object with request.pipeline as an array')
+          }
           result = await api('POST', '/aggregation', body)
           break
         }
@@ -143,6 +146,9 @@ async function main() {
           if (!query) { result = { error: '--query <json> required' }; break }
           let body
           try { body = JSON.parse(query) } catch { result = { error: 'Invalid JSON in --query' }; break }
+          if (!body || typeof body !== 'object' || Array.isArray(body) || !Array.isArray(body.request?.pipeline)) {
+            throw new Error('--query must be an aggregation object with request.pipeline as an array')
+          }
           result = await api('POST', '/aggregation', body)
           break
         }
